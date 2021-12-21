@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lienhe.css">
+    <script src="lienhe.js"></script>
+</head>
+
+<body>
+    <div class="body">
+        <img src="./lh.PNG" width="100%" alt="">
+        <div class="title">
+            <h1> GỬI THÔNG TIN</h1>
+            <p>Bạn hãy điền nội dung tin nhắn vào form và gửi cho chúng tôi chùng tôi sẽ trả lời bạn sau khi nhận đc</p>
+        </div>
+        <div class="t1">
+            <div class="t1_t1">
+                <h4>HỌ VÀ TÊN</h4>
+                <input type="text" placeholder="Nhập họ và tên " id="hoten" onBlur="checkHoTen()">
+                <br> <span id="error"></span><br /><br />
+            </div>
+            <div class="t1_t1">
+                <h4>EMAIL</h4>
+                <input type="text" placeholder="Nhập địa chỉ email" id="email" onBlur="checkEmail()">
+                <p id="error1"></p>
+            </div>
+        </div>
+        <div class="t1_2">
+            <h4 class="h">ĐIỆN THOẠI</h4>
+            <input type="number" placeholder="Nhập số điện thoại " id="sdt" onBlur="checkSDT()">
+            <p id="error3"></p>
+        </div>
+        <div class="t1_2">
+            <h4 class="h">NỘI DUNG</h4>
+            <input type="text" placeholder="Nhập nội dung liên hệ " id="nd" onBlur="checkND()">
+            <p id="error2" ></p>
+        </div>
+        <div class="footer">
+            <button>GỬI TIN NHẮN</button>
+        </div>
+    </div>
+</body>
+</html>

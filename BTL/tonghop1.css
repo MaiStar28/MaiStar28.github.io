@@ -1,0 +1,62 @@
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+    margin-right: 6vw;
+  }
+#nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 45px;
+    color: black;
+  }
+  #nav li:hover a {
+    color: rgb(124, 107, 139);
+    display: block;
+    align-items: center;
+  }
+  #nav .subnav {
+    min-width: 220px;
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    display: none;
+  }
+  #nav .more:hover .subnav{
+    display: block;
+  }
+  #nav .subnav li a {
+    background: #fff;
+    display: block;
+    min-width: 220px;
+  }
+  #nav .subnav li:hover a {
+    background: #ccc;
+    width: 100%;
+
+  }
+  #nav .subnav1 {
+    min-width: 300px;
+    position: absolute;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    display: none;
+  }
+  #nav .more1:hover .subnav1{
+    display: flex;
+    margin-left: -50vw;
+  }
+  #nav .subnav1 li a {
+    background: #fff;
+    display: flex;
+    min-width: 300px;
+  }
+  #nav .subnav1 li:hover a {
+    background: #ccc;
+    width: 100%;
+  }
+
